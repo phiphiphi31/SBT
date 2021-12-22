@@ -11,7 +11,7 @@ Existing transformer-based trackers which are built on two popular tracking para
 * Docker image
     ```
     We also provide a docker image for reproducing our results:
-    jaffe03/duatfrpp:latest
+    jaffe03/dualtfrpp:latest
     ```   
 * Create and activate a conda environment 
     ```bash
