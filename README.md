@@ -50,4 +50,42 @@ We obtain the state-of-the-art results on several benchmarks while running at hi
   </tr>
   <tr>
 
+<table>
+  <tr>
+    <th>Model</th>
+    <th>LaSOT<br>Suc.(%)</th>
+    <th>LaSOT<br>Pre.</th>
+    <th>LaSOTk<br>Norm. Pre.</th>
+    <th>Speed<br></th>
+    <th>Params<br></th>
+  </tr>
+  <tr>
+    <td>SuperSBT-tiny</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>150fps</td>
+    <td>10.7M</td>
+  </tr>
+  <tr>
+    <td>SuperSBT-small</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>87fps</td>
+    <td>25.8M</td>
+  </tr>
+  <tr>
+    <td>SuperSBT-base</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>50fps</td>
+    <td>52.1M</td>
+  </tr>
+  <tr>
     
+## Acknowledgement
+This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
+also borrowing from [PySOT](https://github.com/STVIR/pysot), [GOT-10k](https://github.com/got-10k/toolkit) and [Vision Transformer](https://github.com/lucidrains/vit-pytorch), such as [Swin Transformer](https://github.com/microsoft/Swin-Transformer), [PVT](https://github.com/whai362/PVT), [Twins](https://github.com/Meituan-AutoML/Twins). 
+We would like to thank their authors for providing great code and framework. 
