@@ -8,6 +8,11 @@ Existing transformer-based trackers which are built on two popular tracking para
 
 
 #### Install dependencies
+* Docker image
+    ```
+    We also provide a docker image for reproducing our results:
+    jaffe03/duatfrpp:latest
+    ```   
 * Create and activate a conda environment 
     ```bash
     conda create -n SBT python=3.7
