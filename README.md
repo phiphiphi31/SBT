@@ -1,6 +1,6 @@
 # SuperSBT: Faster and Stronger Single Branch Transformer Tracking
 
-### We hope this work can enlighten more researchers/engineers to build a simple but strong Single Branch Transformer (SBT) driven tracker.
+### We hope this work can attract more researchers/engineers to build a simple but strong Single Branch Transformer (SBT) driven tracker.
 
 ### Code and paper will be released publicily. 
 
