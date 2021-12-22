@@ -46,7 +46,7 @@ We would like to thank their authors for providing great code and framework.
 * Fei Xie, School of Automation, Southeast University, China, 372998044@qq.com, wechat: 372998044
 
 ## Results
-We obtain the state-of-the-art results on several benchmarks while running at high speed. More results are coming soon. 
+We obtain the state-of-the-art results on several benchmarks while running at high speed. 
 <table>
   <tr>
     <th>Model</th>
@@ -81,7 +81,8 @@ We obtain the state-of-the-art results on several benchmarks while running at hi
     <td>52.1M</td>
   </tr>
   <tr>
-
+      
+More results are coming soon. 
 <table>
   <tr>
     <th>Model</th>
