@@ -47,6 +47,8 @@ We would like to thank their authors for providing great code and framework.
 
 ## Results
 We obtain the state-of-the-art results on several benchmarks while running at high speed. 
+More results are coming soon. 
+
 <table>
   <tr>
     <th>Model</th>
@@ -82,7 +84,6 @@ We obtain the state-of-the-art results on several benchmarks while running at hi
   </tr>
   <tr>
       
-More results are coming soon. 
 <table>
   <tr>
     <th>Model</th>
