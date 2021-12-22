@@ -11,28 +11,33 @@ We obtain the state-of-the-art results on several benchmarks while running at hi
   <tr>
     <th>Model</th>
     <th>GOT-10k<br>AO (%)</th>
+    <th>GOT-10k<br>SR0.5 (%)</th>
+    <th>GOT-10k<br>SR0.75 (%)</th>
     <th>Speed<br></th>
     <th>Params<br></th>
   </tr>
   <tr>
     <td>SuperSBT-tiny</td>
-    <td>64.2</td>
-    <td>80.9</td>
-    <td>70fps</td>
-    <td>16.7M</td>
+    <td>62.6</td>
+    <td>73.9</td>
+    <td>51.1</td>
+    <td>150fps</td>
+    <td>10.7M</td>
   </tr>
   <tr>
     <td>SuperSBT-small</td>
-    <td>64.2</td>
-    <td>80.9</td>
-    <td>70fps</td>
-    <td>16.7M</td>
+    <td>67.6</td>
+    <td>77.8</td>
+        <td>62.2</td>
+    <td>87fps</td>
+    <td>25.8M</td>
   </tr>
   <tr>
     <td>SuperSBT-base</td>
-    <td>64.2</td>
-    <td>80.9</td>
-    <td>70fps</td>
-    <td>16.7M</td>
+    <td>70.0</td>
+    <td>80.1</td>
+    <td>65.4</td>
+    <td>50fps</td>
+    <td>52.1M</td>
   </tr>
   <tr>
