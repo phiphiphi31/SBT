@@ -59,7 +59,7 @@ We obtain the state-of-the-art results on several benchmarks while running at hi
     <th>Model</th>
     <th>LaSOT<br>Suc.(%)</th>
     <th>LaSOT<br>Pre.</th>
-    <th>LaSOTk<br>Norm. Pre.</th>
+    <th>LaSOT<br>Norm. Pre.</th>
     <th>Speed<br></th>
     <th>Params<br></th>
   </tr>
