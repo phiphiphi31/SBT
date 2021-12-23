@@ -43,7 +43,7 @@ also borrowing from [PySOT](https://github.com/STVIR/pysot), [GOT-10k](https://g
 We would like to thank their authors for providing great code and framework. 
 
 ## Contacts
-* Fei Xie, School of Automation, Southeast University, China, 372998044@qq.com, wechat: 372998044
+* Fei Xie, School of Automation, Southeast University, China, 372998044@qq.com
 
 ## Results
 We obtain the state-of-the-art results on several benchmarks while running at high speed. 
