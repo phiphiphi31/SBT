@@ -68,17 +68,17 @@ More results are coming soon.
   </tr>
   <tr>
     <td>SuperSBT-small</td>
-    <td>67.6</td>
-    <td>77.8</td>
-        <td>62.2</td>
+    <td>69.5</td>
+    <td>80.3</td>
+        <td>64.6</td>
     <td>87fps</td>
     <td>25.8M</td>
   </tr>
   <tr>
     <td>SuperSBT-base</td>
-    <td>70.0</td>
-    <td>80.1</td>
-    <td>65.4</td>
+    <td>70.5</td>
+    <td>80.3</td>
+    <td>65.6</td>
     <td>50fps</td>
     <td>52.1M</td>
   </tr>
