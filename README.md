@@ -1,5 +1,7 @@
 # SuperSBT: Faster and Stronger Single Branch Transformer Tracking
 
+### This the modified version of our work "Correlation-Aware Deep Tracking".  You can find it in https://arxiv.org/abs/2203.01666 
+
 ### We hope this work can attract more researchers/engineers to build a simple but strong Single Branch Transformer (SBT) driven tracker. Code and paper will be released publicily. 
 
 
