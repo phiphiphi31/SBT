@@ -1,12 +1,12 @@
 # SBT: Single Branch Transformer Tracking
 
-### This the modified version of our work "Correlation-Aware Deep Tracking".  You can find it in https://arxiv.org/abs/2203.01666 
+### This the reproduced version of our work "Correlation-Aware Deep Tracking".  You can find it in https://arxiv.org/abs/2203.01666 
 
 ### We hope this work can attract more researchers/engineers to build a simple but strong Single Branch Transformer (SBT) driven tracker. Code and paper will be released publicily. 
 
 
 ## Abstract
-Existing transformer-based trackers which are built on two popular tracking paradigms, \ie Siamese-based and DCF-based tracking, mostly leverage transformer model to solely focus on one of these three issues: feature extraction, feature enhancement or feature fusion. Differently, this work presents a novel tracking architecture on top of Single Branch Transformer (SBT). Through two crucial modifications for tracking problem, \ie dynamic feature extraction and correspondence establishment, our conceptually neat tracking framework which is named SuperSBT, simultaneously addresses above three issues. Specifically, with dedicated non-parametric attention operator design, SBT can extract target-dependent features as well as building comprehensive interactions between target and search area, while achieving high inference speed and marvelous tracking performance. We further conduct extensive investigations on the crucial design and architecture variants to provide more insights for SBT tracking. Through our experiments, SuperSBT sets a new record while still running at high inference speed.
+Robustness and discrimination power are two fundamental requirements in visual object tracking. In most tracking paradigms, we find that the features extracted by the popular Siamese-like networks cannot fully discriminatively model the tracked targets and distractor objects, hindering them from simultaneously meeting these two requirements. While most methods focus on designing robust correlation operations, we propose a novel target-dependent feature network inspired by the self-/cross-attention scheme. In contrast to the Siamese-like feature extraction, our network deeply embeds cross-image feature correlation in multiple layers of the feature network. By extensively matching the features of the two images through multiple layers, it is able to suppress non-target features, resulting in instance-varying feature extraction. The output features of the search image can be directly used for predicting target locations without extra correlation step. Moreover, our model can be flexibly pre-trained on abundant unpaired images, leading to notably faster convergence than the existing methods. Extensive experiments show our method achieves the state-of-the-art results while running at real-time. Our feature networks also can be applied to existing tracking pipelines seamlessly to raise the tracking performance.
 
 
 #### Install dependencies
@@ -45,7 +45,7 @@ also borrowing from [PySOT](https://github.com/STVIR/pysot), [GOT-10k](https://g
 We would like to thank their authors for providing great code and framework. 
 
 ## Contacts
-* Fei Xie, School of Automation, Southeast University, China, 372998044@qq.com
+* Fei Xie, Shanghai Jiao Tong University, China, 372998044@qq.com
 
 ## Results
 We obtain the state-of-the-art results on several benchmarks while running at high speed. 
@@ -61,28 +61,12 @@ More results are coming soon.
     <th>Params<br></th>
   </tr>
   <tr>
-    <td>SuperSBT-tiny</td>
-    <td>62.6</td>
-    <td>73.9</td>
-    <td>51.1</td>
-    <td>150fps</td>
-    <td>10.7M</td>
-  </tr>
-  <tr>
-    <td>SuperSBT-small</td>
-    <td>69.5</td>
-    <td>80.3</td>
-        <td>64.6</td>
-    <td>87fps</td>
-    <td>25.8M</td>
-  </tr>
-  <tr>
-    <td>SuperSBT-base</td>
-    <td>70.5</td>
-    <td>80.3</td>
-    <td>65.6</td>
-    <td>50fps</td>
-    <td>52.1M</td>
+    <td>SBT-base</td>
+    <td>69.7</td>
+    <td>79.9</td>
+    <td>64.1</td>
+    <td>40fps</td>
+    <td>25.1M</td>
   </tr>
   <tr>
       
@@ -96,28 +80,12 @@ More results are coming soon.
     <th>Params<br></th>
   </tr>
   <tr>
-    <td>SuperSBT-tiny</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>150fps</td>
-    <td>10.7M</td>
-  </tr>
-  <tr>
-    <td>SuperSBT-small</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>87fps</td>
-    <td>25.8M</td>
-  </tr>
-  <tr>
     <td>SuperSBT-base</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>50fps</td>
-    <td>52.1M</td>
+    <td>68.0</td>
+    <td>73.9</td>
+    <td>77.8</td>
+    <td>40fps</td>
+    <td>25.1M</td>
   </tr>
   <tr>
 
