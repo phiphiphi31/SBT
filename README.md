@@ -34,9 +34,9 @@ More results are coming soon.
 <table>
   <tr>
     <th>Model</th>
-    <th>LaSOT<br>Suc.(%)</th>
-    <th>LaSOT<br>Pre.</th>
-    <th>LaSOT<br>Norm. Pre.</th>
+    <th>LaSOT<br>AUC (%)</th>
+    <th>LaSOT<br>Precision</th>
+    <th>LaSOT<br>Norm. Precision</th>
     <th>Speed<br></th>
     <th>Params<br></th>
   </tr>
