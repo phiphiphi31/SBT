@@ -40,7 +40,7 @@ More results are coming soon.
     <th>Params<br></th>
   </tr>
   <tr>
-    <td>SuperSBT-base</td>
+    <td>SBT-base</td>
     <td>68.0</td>
     <td>73.9</td>
     <td>77.8</td>
