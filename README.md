@@ -86,11 +86,8 @@ We would like to thank their authors for providing great code and framework.
 
 ## Contacts
 * Fei Xie, Shanghai Jiao Tong University, China, 372998044@qq.com
-
-
-
       
-## Citing VideoTrack
+## Citing SBT
 If you find SBT useful in your research, please consider citing:
 ```bibtex
 @inproceedings{
