@@ -2,6 +2,16 @@
 
 ### This the reproduced version of our work "Correlation-Aware Deep Tracking".  You can find it in https://arxiv.org/abs/2203.01666 
 
+## Correlation-Aware Deep Tracking
+
+### :star: Our paper is accepted by CVPR2022 !
+
+```bibtex
+Fei Xie, Chunyu Wang, Guangting Wang, Yue Cao, Wankou Yang, Wenjun Zeng
+
+This work was done when Fei Xie was an intern at Microsoft Research Asia
+```
+
 
 
 ## Abstract
