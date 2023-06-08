@@ -29,7 +29,8 @@ More results are coming soon.
     <td>25.1M</td>
   </tr>
   <tr>
-    
+</table>
+
 <table>
   <tr>
     <th>Model</th>
@@ -48,6 +49,7 @@ More results are coming soon.
     <td>25.1M</td>
   </tr>
   <tr>
+</table>
     
 #### Install dependencies
 * Docker image
