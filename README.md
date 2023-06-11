@@ -1,10 +1,11 @@
-# SBT: Single Branch Transformer Tracking
-
-### This the reproduced version of our work "Correlation-Aware Deep Tracking".  You can find it in https://arxiv.org/abs/2203.01666 
-
-## Correlation-Aware Deep Tracking
+## Correlation-Aware Deep Tracking (SBT)
 
 ### :star: Our paper is accepted by CVPR2022 !
+
+###  Single Branch Transformer Tracking. This is the reproduced version of our work "Correlation-Aware Deep Tracking".You can find it  [here](https://arxiv.org/abs/2203.01666). 
+ 
+
+
 
 ```bibtex
 Fei Xie, Chunyu Wang, Guangting Wang, Yue Cao, Wankou Yang, Wenjun Zeng
@@ -12,10 +13,27 @@ Fei Xie, Chunyu Wang, Guangting Wang, Yue Cao, Wankou Yang, Wenjun Zeng
 This work was done when Fei Xie was an intern at Microsoft Research Asia
 ```
 
+![compare](external/fig/compare.png)
+(a1) standard Siamese-like feature extraction; (a2) our target-dependent feature extraction; (b1) correlation step, such as Siamese
+cropping correlation [23], DCF [11] and Transformer-based correlation [5] ; (b2) our pipeline removes separated correlation step; (c)
+prediction stage; (d1)/(d2) are the TSNE [38] visualizations of search features in (a1)/(a2) when feature networks go deeper
+
+![arch](external/fig/arch.png)
+(a) architecture of our proposed Single Branch Transformer for tracking. Different from Siamese, DCF and Transformer-based
+methods, it does not have a standalone module for computing correlation. Instead, it embeds correlation in all Cross-Attention layers which
+exist at different levels of the networks. The fully fused features of the search image are directly fed to Classification Head (Cls Head) and
+Regression Head (Reg Head) to obtain localization and size embedding maps. (b) shows the structure of a Extract-or-Correlation (EoC)
+block. (c) shows the difference of EoC-SA and EoC-CA. PaE denotes patch embedding. LN denotes layer normalization.
 
 
 ## Abstract
 Robustness and discrimination power are two fundamental requirements in visual object tracking. In most tracking paradigms, we find that the features extracted by the popular Siamese-like networks cannot fully discriminatively model the tracked targets and distractor objects, hindering them from simultaneously meeting these two requirements. While most methods focus on designing robust correlation operations, we propose a novel target-dependent feature network inspired by the self-/cross-attention scheme. In contrast to the Siamese-like feature extraction, our network deeply embeds cross-image feature correlation in multiple layers of the feature network. By extensively matching the features of the two images through multiple layers, it is able to suppress non-target features, resulting in instance-varying feature extraction. The output features of the search image can be directly used for predicting target locations without extra correlation step. Moreover, our model can be flexibly pre-trained on abundant unpaired images, leading to notably faster convergence than the existing methods. Extensive experiments show our method achieves the state-of-the-art results while running at real-time. Our feature networks also can be applied to existing tracking pipelines seamlessly to raise the tracking performance.
+
+## model file and results 
+models and raw results can be downloaded from Baidu NetDisk (password:ne0x):
+
+[**[Models, Raw resuls and Training logs(password:ne0x)]**](https://pan.baidu.com/s/1LMWhIHxvSXkV27QhaNp1Lw?pwd=ne0x)
+
 
 ## Results
 We obtain the state-of-the-art results on several benchmarks while running at high speed. 
@@ -90,6 +108,23 @@ More results are coming soon.
     ```  
 * Setup the environment                                                                                                 
 Create the default environment setting files.
+
+#### For training
+* Full dataset training (lasot, got10k, coco, trackingnet):
+    ```bash
+    python -m torch.distributed.launch --nproc_per_node 8 lib/train/run_training_sbt.py --script sbt --config sbt_base --save_dir ./
+    ```  
+* got10k dataset training (lasot, got10k, coco, trackingnet):
+    ```bash
+    python -m torch.distributed.launch --nproc_per_node 8 lib/train/run_training_sbt.py --script sbt --config sbt_base_got --save_dir ./
+    ```  
+#### For testing
+* For examplem, in lasot testing set:
+    ```bash
+    python ./tracking/test.py --tracker_name sbt --tracker_param sbt_base --dataset lasot --threads 0
+    python ./tracking/analysis_results_ITP.py --script  sbt --config sbt_base
+    ```  
+
 
 ## Acknowledgement
 This is a modified version of the python framework [PyTracking](https://github.com/visionml/pytracking) based on **Pytorch**, 
