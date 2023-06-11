@@ -138,11 +138,10 @@ We would like to thank their authors for providing great code and framework.
 ## Citing SBT
 If you find SBT useful in your research, please consider citing:
 ```bibtex
-@inproceedings{
-Xie2022sbt, 
-title={Correlation-Aware Deep Tracking},
-author={Fei Xie, Chunyu Wang, Guangting Wang, Yue Cao, Wankou Yang, Wenjun Zeng},
-booktitle={Conference on Computer Vision and Pattern Recognition},
-year={2022},
+@inproceedings{xie2022sbt,
+  title={Correlation-aware deep tracking},
+  author={Xie, Fei and Wang, Chunyu and Wang, Guangting and Cao, Yue and Yang, Wankou and Zeng, Wenjun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
 }
 ```
