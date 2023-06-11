@@ -1,8 +1,8 @@
-## Correlation-Aware Deep Tracking (SBT)
+## Correlation-Aware Deep Tracking (Single Branch Transformer Tracking)
 
 ### :star: Our paper is accepted by CVPR2022 !
 
-###  Single Branch Transformer Tracking. This is the reproduced version of our work "Correlation-Aware Deep Tracking".You can find it  [here](https://arxiv.org/abs/2203.01666). 
+###  This is the reproduced version of our work "Correlation-Aware Deep Tracking".You can find it  [here](https://arxiv.org/abs/2203.01666). 
  
 
 
