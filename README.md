@@ -2,7 +2,7 @@
 
 ### :star: Our paper is accepted by CVPR2022 !
 
-###  This is the reproduced version of our work "Correlation-Aware Deep Tracking".You can find it  [here](https://arxiv.org/abs/2203.01666). 
+###  This is the reproduced version of our work "Correlation-Aware Deep Tracking". You can find the paper [here](https://arxiv.org/abs/2203.01666). 
  
 
 
