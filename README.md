@@ -1,4 +1,8 @@
-## [Correlation-Aware Deep Tracking](https://arxiv.org/abs/2203.01666)
+## [Correlation-Aware Deep Tracking (SBT)](https://arxiv.org/abs/2203.01666)
+
+```bibtex
+Fei Xie, Chunyu Wang, Guangting Wang, Yue Cao, Wankou Yang, Wenjun Zeng
+```
 
 ### :star: This is the official reproduced version of our CVPR2022 work ["Correlation-Aware Deep Tracking"](https://arxiv.org/abs/2203.01666). 
 
@@ -6,9 +10,7 @@
  
 
 
-```bibtex
-Fei Xie, Chunyu Wang, Guangting Wang, Yue Cao, Wankou Yang, Wenjun Zeng
-```
+
 
 ![compare](external/fig/compare.png)
 (a1) standard Siamese-like feature extraction; (a2) our target-dependent feature extraction; (b1) correlation step, such as Siamese
