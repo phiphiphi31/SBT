@@ -2,7 +2,7 @@
 
 ### :star: This is the official reproduced version of our CVPR2022 work ["Correlation-Aware Deep Tracking"](https://arxiv.org/abs/2203.01666). 
 
-### :star: For an improved single-branch transformer tracking model: [SuperSBT](https://arxiv.org/pdf/2401.12743), please go to this [github repository](https://github.com/phiphiphi31/SuperSBT) !
+### :star: For an improved single-branch transformer tracking model, [SuperSBT](https://arxiv.org/pdf/2401.12743), please go to this [github repository](https://github.com/phiphiphi31/SuperSBT)!
  
 
 
