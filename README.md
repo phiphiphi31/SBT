@@ -2,9 +2,11 @@
 
 ### :star: Our paper is accepted by CVPR2022 !
 
+### For an improved version SuperSBT, [Correlation-Embedded Transformer Tracking:
+A Single-Branch Framework](https://arxiv.org/pdf/2401.12743), please go to https://github.com/phiphiphi31/SuperSBT
+
 ###  This is the reproduced version of our work "Correlation-Aware Deep Tracking". You can find the paper [here](https://arxiv.org/abs/2203.01666). 
  
-
 
 
 ```bibtex
