@@ -6,7 +6,7 @@ import cv2
 import os
 from lib.utils.merge import merge_template_search
 from lib.models.sbt.SBTtrackmodel import build_SBTtrack
-from lib.test.tracker.stark_utils import Preprocessor
+from lib.test.tracker.data_utils import Preprocessor
 from lib.utils.box_ops import clip_box
 
 import numpy as np
